@@ -3,9 +3,16 @@ import pygame
 import piano_lists as pl
 from pygame import mixer
 
-#this will initialize the pygame library
+
+# Initialize Pygame
 pygame.init()
+
+# Initialize the mixer
+pygame.mixer.init()
+
+# Set the number of channels
 pygame.mixer.set_num_channels(50)
+
 
 #this is the path to fonts that we will use
 #other variables for the sound and window 
